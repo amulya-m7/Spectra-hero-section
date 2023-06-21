@@ -1,0 +1,40 @@
+@font-face {
+  font-family: opensans;
+  /* src: url("OpenSans-Regular.ttf"); */
+  src: url(OpenSans-Bold.ttf);
+}
+
+body {
+  font-family: opensans;
+  background-image: url(images/faded-office.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  border: none;
+  color: #020202;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+#hero-section {
+  width: 280px;
+  padding: 200px;
+  text-align: left;
+}
+
+.cta {
+  padding: 10px 20px;
+  background-color: #0ea5e9;
+  border: none;
+  box-shadow: 0px 0px 4px white;
+  color: azure;
+  font-weight: 600;
+}
+
+.pop {
+  text-decoration: underline 3px #0ea5e9;
+}
